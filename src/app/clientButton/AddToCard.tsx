@@ -1,5 +1,4 @@
 "use client";
-
 import { useContext, useState } from "react";
 import { DataContext } from "../context/CardContext";
 import { Type } from "../types/type";
@@ -40,5 +39,4 @@ const AddToCard = ({ data }: { data: Type }) => {
     </button>
   );
 };
-
 export default AddToCard;
