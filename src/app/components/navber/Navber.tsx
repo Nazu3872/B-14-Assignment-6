@@ -8,9 +8,8 @@ import { usePathname } from 'next/navigation'
 
 const Navber = () => {
     const pathname = usePathname();
-
     const links = (
-        <>
+        <div>
             <Link
                 href="/"
                 className={`transition ${pathname === "/"
@@ -30,7 +29,7 @@ const Navber = () => {
             >
                 My Plan
             </Link>
-        </>
+        </div>
     )
     const { addToCard } = useContext(DataContext)
     const { saveForLater } = useContext(DataContext)
