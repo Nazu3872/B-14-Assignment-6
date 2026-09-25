@@ -2,10 +2,9 @@
 # 🏋️ FitLog
 
 FitLog is a modern fitness workout tracking web application where users can explore workouts, save their favorite exercises, create a personal workout plan, and track important workout information such as duration, calories, and rating.
-
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 🔗 **Live Website:** Add your live deployment link here
 
@@ -13,7 +12,7 @@ FitLog is a modern fitness workout tracking web application where users can expl
 
 ---
 
-## 📌 Project Description
+##  Project Description
 
 **FitLog** is designed to make workout planning simple and organized.
 

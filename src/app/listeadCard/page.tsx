@@ -11,7 +11,7 @@ const ListeadCard = () => {
   const { addToCard, setAddToCard } = useContext(DataContext);
   const [done, setDone] = useState<number[]>([]);
   const pathName = usePathname();
-  const [sortBy, setSortBy] = useState("Duration");
+  const [sortBy, setSortBy] = useState("Duration")
 
 const sortedAddToCard = [...addToCard].sort((a, b) => {
   if (sortBy === "Duration") {
