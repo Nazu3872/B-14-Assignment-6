@@ -1,5 +1,4 @@
 export interface Type{
-    
     id: number
     name: string
     image: string
@@ -13,5 +12,4 @@ export interface Type{
     rating: number
     description: string
     instructions: string
-    
 }
