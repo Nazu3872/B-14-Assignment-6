@@ -5,11 +5,8 @@ import { Type } from '../types/type';
 import { toast } from 'react-toastify';
 
 const SaveForLater = ({ data }: { data: Type }) => {
-    // const { addToCard, setAddToCard } = useContext(DataContext);
     const { saveForLater, setSaveForLater } = useContext(DataContext);
-
     const [added, setAdded] = useState(false);
-
     const SaveForlater = () => {
         const alreadyAdded = saveForLater.some(
             (item: Type) => item.id === data.id
@@ -19,11 +16,8 @@ const SaveForLater = ({ data }: { data: Type }) => {
             toast.warning("This workout is already added!");
             return;
         }
-
         setSaveForLater([...saveForLater, data]);
-
         setAdded(true);
-
         toast.success("Workout added successfully!");
     };
     return (
