@@ -1,7 +1,7 @@
 "use client"
 const Loading = () => {
   return (
-    <>
+    <div>
       <style jsx>{`
         /* Loading bar animation */
         @keyframes loading {
@@ -156,7 +156,7 @@ const Loading = () => {
         <div className="absolute w-96 h-96 bg-[#ccff00]/5 blur-[120px] rounded-full pointer-events-none"></div>
 
       </div>
-    </>
+    </div>
   );
 };
 
